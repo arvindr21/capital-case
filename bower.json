@@ -1,0 +1,7 @@
+{
+  "name": "capital-case#gh-pages",
+  "private": true,
+  "dependencies": {
+    "capital-case": "arvindr21/capital-case#master"
+  }
+}

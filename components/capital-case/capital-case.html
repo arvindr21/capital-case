@@ -1,0 +1,35 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+An inline element to make content inside it capital-case
+
+##### Basic Usage
+
+    <capital-case>your text here</capital-case>
+
+The result would be 
+	
+	Your Text Here
+
+Using nested tags
+	
+	<capital-case><p>your text here<p></capital-case>
+
+The result would be 
+	
+	Your Text Here
+
+@element capital-case
+@blurb Element providing solution to no problem in particular.
+@status alpha
+@homepage http://arvindr21.github.io/capital-case
+-->
+<polymer-element name="capital-case" attributes="notitle author">
+  <template>
+    <link rel="stylesheet" href="capital-case.css" />
+    <content></content>
+  </template>
+  <script>
+    Polymer('capital-case', {});
+  </script>
+</polymer-element>
