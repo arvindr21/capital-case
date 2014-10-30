@@ -5,7 +5,7 @@
     "Arvind Ravulavaru <arvind.ravulavaru@gmail.com>"
   ],
   "description": "An inline element to make content inside it capital-case",
-  "keywords": "capital case, polymer, web-components",
+  "keywords": ["capital case", "polymer", "web-components"],
   "main": "capital-case.html",
   "license": "MIT",
   "homepage": "https://github.com/arvindr21/capital-case/",
